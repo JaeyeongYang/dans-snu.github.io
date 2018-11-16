@@ -89,6 +89,7 @@ $modal-highlight-color: #212121;
             color: $modal-highlight-color;
         }
         .position {
+            display: block;
             font-weight: $regular;
             color: $modal-color;
         }

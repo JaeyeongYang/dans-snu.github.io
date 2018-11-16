@@ -28,7 +28,7 @@
 										    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
 										</div>
 										{% endif %}
-										<p class="theme-description">{{ session.description }}</p>
+										<p class="theme-description">{{ session.description | markdownify }}</p>
 										{% if session.presentation %}
 										<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 										{% endif %}
@@ -52,19 +52,20 @@
 			                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
 			                            {% endfor %}
 			                        </div>
-			                        {% endif %}
-									<p class="about">{{ speaker.bio }}</p>
 									<ul class="social">
 										{% for social in speaker.social %}
 											<li>
-												<a href="{{ social["link"] }}" target="_blank">
-													<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+												<a href="{{ social['link'] }}" target="_blank">
+													<svg class="icon icon-{{ social['name'] }}" viewBox="0 0 30 32">
 														<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
 													</svg>
+													{{ social['name'] | capitalize }}
 												</a>
 											</li>
 										{% endfor %}
 									</ul>
+			                        {% endif %}
+									<p class="about">{{ speaker.bio | markdownify }}</p>
 								</div>
 							</div>
 						</div>
