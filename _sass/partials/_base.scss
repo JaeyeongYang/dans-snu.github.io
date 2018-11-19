@@ -32,7 +32,7 @@ $main-color: rgb(15, 15, 112);
 $link-color: #03a9f4;
 $link-lighten-amount: 20%;
 $base-background-color: #fff;
-$base-section-background-color: #333;
+$base-section-background-color: $main-color;
 // $primary-color: #4285f4;
 $primary-color: $main-color;
 $primary-color-hover: #3266d5;

@@ -42,9 +42,12 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: |
-  <strong>WSTAR</strong> <br>
-  Workshop for <br class="visible-xs"> Statistical Tools & <br>
-  Analytical Researches
+  <strong>WSTAR @ SNU</strong> <br>
+  <div style="font-size: .7em; margin: 1.5rem 0; line-height: 1.3em;">
+    Workshop for <br class="visible-xs"> Statistical Tools & <br>
+    Analytical Researches <br>
+    at Seoul National University
+  </div>
 eventDate: "2019년 2월 18일 ~ 22일"
 heroButtons:
   # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
