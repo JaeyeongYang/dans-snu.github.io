@@ -12,8 +12,8 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "WSTAR-SNU, 2018 Winter"
 email: "wstar-snu@gmail.com"
 description: "This is descriptions"
-baseurl: ""
-url: ""
+baseurl: "/website-workshop-2018winter"
+url: "https://jaeyeong-yang.com"
 permalink: "/notice/:title"
 useFavicons: false
 googleAnalyticsTrackingId: ""
