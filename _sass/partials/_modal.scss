@@ -16,7 +16,7 @@ $modal-highlight-color: #212121;
     }
     h4 {
         font-size: 35px;
-        font-weight: $regular;
+        font-weight: $bold;
         color: $modal-highlight-color;
         @media (max-width: 767px) {
             font-size: 29px;
@@ -85,7 +85,7 @@ $modal-highlight-color: #212121;
         .name {
             margin-bottom: 9px;
             font-size: 17px;
-            font-weight: $bold;
+            font-weight: $extra-bold;
             color: $modal-highlight-color;
         }
         .position {

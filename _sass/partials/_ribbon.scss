@@ -1,4 +1,4 @@
-$ribbon-color: #999;
+$ribbon-color: #333;
 $gdg-ribbon-border-color: #427fed;
 $gdgw-ribbon-border-color: #ed2c82;
 $gde-ribbon-border-color: #db4437;
@@ -33,7 +33,7 @@ $wt-ribbon-border-color: #72e1b3;
     }
     .ribbon {
         font-size: 13px;
-        font-weight: 300;
+        font-weight: $light;
         line-height: 22px;
         display: inline-block;
         float: right;
@@ -45,7 +45,7 @@ $wt-ribbon-border-color: #72e1b3;
         text-align: left;
         word-wrap: normal;
         color: $ribbon-color;
-        background-color: #fff;
+        background-color: #eee;
         box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     }
     .abbr {

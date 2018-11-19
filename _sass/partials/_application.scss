@@ -1,8 +1,16 @@
 .application-details {
     img {
         width: 128px;
+        margin: 10px 0;
     }
     p {
         margin-top: 10px;
+    }
+}
+
+.btn-application {
+    &, &:hover {
+        font-size: 1.3em;
+        line-height: 2em;
     }
 }

@@ -12,7 +12,7 @@
                 <div class="col-md-{{ colWidth }} col-xs-12">  
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ app.title }}</h5>
-                        <img class="img-circle" src="{{ site.baseurl }}/img/application-section/{{ app.image }}" height="128" width="128" alt="{{ about.title }}">
+                        <img src="{{ site.baseurl }}/img/application-section/{{ app.image }}" height="100" width="100" alt="{{ about.title }}">
                         <p>{{ app.text }}</p>
                     </div>
                 </div>
@@ -22,9 +22,8 @@
                 {% endfor %}
             </div>
         </div>
-        <span class="bordered dark-border">
-            <a href="{{ site.applicationUrl }}" class="bottom-section-link waves-effect waves-button waves-light">{{ site.applicationButtonText }}</a>
-        </span>
+        <div class="clearfix" style="height: 50px"></div>
+        <a href="{{ site.applicationUrl }}" class="btn btn-application btn-primary bottom-section-link waves-effect waves-button waves-light">{{ site.applicationButtonText }}</a>
     </div>
 </section>
-<!-- End About Section -->
+<!-- End Application Section -->

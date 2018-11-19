@@ -4,6 +4,11 @@
         line-height: 1.5em;
         text-align: justify;
         word-break: keep-all;
+
+        @media (max-width: $screen-xs-max) {
+            font-size: 1.2em;
+            line-height: 1.4em;
+        }
     }
 }
 

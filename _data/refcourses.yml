@@ -1,0 +1,23 @@
+- 
+  title: R Tutorials
+  content:
+    - 
+      name: Coursera courses
+      url: https://www.coursera.org/courses?languages=en&query=R
+    - 
+      name: Cookbook for R
+      url: http://www.cookbook-r.com/
+    - 
+      name: Quick-R
+      url: https://www.statmethods.net/advstats/factor.html
+    - 
+      name: Swirl
+      url: https://swirlstats.com/
+- 
+  title: MATLAB Tutorials
+  content:
+    -
+      name: MATLAB Cookbook
+      url: http://www.matlab-cookbook.com/
+    - name: Coursera course for MATLAB
+      url: https://www.coursera.org/learn/matlab
