@@ -5,7 +5,7 @@ safe: false
 
 # Build Settings
 markdown: kramdown
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
