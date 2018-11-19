@@ -13,7 +13,7 @@ title: "WSTAR-SNU, 2018 Winter"
 email: "wstar-snu@gmail.com"
 description: "This is descriptions"
 baseurl: "/website-workshop-2018winter"
-url: "https://jaeyeong-yang.com"
+url: ""
 permalink: "/notice/:title"
 useFavicons: false
 googleAnalyticsTrackingId: ""
