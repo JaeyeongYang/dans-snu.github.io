@@ -1,0 +1,30 @@
+<!-- Application Section -->
+<section id="application" class="application">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            {% if site.applicationTitle %}
+            <h3>{{ site.applicationTitle }}</h3>
+            {% endif %}
+            <div class="row application-details">
+                {% assign animationDelay = 0 %}
+                {% for app in site.applicationBlocks %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-12">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <h5>{{ app.title }}</h5>
+                        <img class="img-circle" src="{{ site.baseurl }}/img/application-section/{{ app.image }}" height="128" width="128" alt="{{ about.title }}">
+                        <p>{{ app.text }}</p>
+                    </div>
+                </div>
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <span class="bordered dark-border">
+            <a href="{{ site.applicationUrl }}" class="bottom-section-link waves-effect waves-button waves-light">{{ site.applicationButtonText }}</a>
+        </span>
+    </div>
+</section>
+<!-- End About Section -->
