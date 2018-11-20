@@ -16,8 +16,9 @@
 }
 .jumbotron {
     position: relative;
-    left: 10%;
-    margin: 100px 0 0 0;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 0;
     color: #fff;
     background: 0;
     @media (max-width: 767px) {
