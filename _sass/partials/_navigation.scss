@@ -144,7 +144,7 @@ nav {
                     // color: $nav-scroll-color-hover;
                     color: $nav-scroll-color;
                     font-weight: $extra-bold;
-                    border-bottom: $nav-color solid 1px;
+                    border-bottom: $nav-scroll-color solid 1px;
                     @media (max-width: 767px) {
                         color: $main-color;
                         border-bottom: 0;

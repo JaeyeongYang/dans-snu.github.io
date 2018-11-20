@@ -55,6 +55,8 @@
   title: "Lab Session 1"
   description: |
     SPM, Mutiple testing (FDR, FWER), Nonparametric regression, ROC curves and logistic regression
+    
+    조 편성 및 data collection process 이해 (Lab tour 포함)
   service: true
 ################################################################################
 # Day 2
@@ -110,7 +112,9 @@
 -
   id: 200
   title: "Lab Session 2"
-  description: >
+  description: |
+    fMRI Preprocessing, GLM, MVPA 실습
+
     Descriptive statistics for spiking data from individual neurons;
     Statistical analysis of neural population activity;
     Statistical analysis of functional relationships between behavior and neural activity;
@@ -158,7 +162,9 @@
 -
   id: 300
   title: "Lab Session 3"
-  description: >
+  description: |
+    Neurophysiology and spiking analysis 실습
+
     Analysis and Modeling of Behavioral Data:
     Application of mixed-effect logistic regression.
     Application of Support Vector Regression (SVR) to fMRI data		
@@ -166,6 +172,19 @@
 ################################################################################
 # Day 4
 ################################################################################
+-
+  id: 400
+  title: 프로젝트 및 과제 설명
+  description: |
+    Both fMRI & spiking projects per team
+  service: true
 ################################################################################
 # Day 5
 ################################################################################
+-
+  id: 501
+  title: 팀별 프로젝트 발표
+  service: true
+-
+  id: 502
+  title: 프로젝트 결과 발표 및 시상

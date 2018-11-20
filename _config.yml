@@ -32,13 +32,13 @@ siteVerification: ""
 navigationLinks:
   - {permalink: "/", text: "Home"}
   - {permalink: "/schedule/", text: "Schedule"}
-  - {permalink: "/speakers/", text: "Speakers"}
+  # - {permalink: "/speakers/", text: "Speakers"}
   # - {permalink: "/notice/", text: "Notice"}
-  - {permalink: "/apply/", text: "Application"}
+  # - {permalink: "/apply/", text: "Application"}
 bottomNavigationLinks:
-  # - {link: "", text: "Apply"}
+  - {link: "#", text: "Apply"}
 rightNavigationButtons:
-  # - {link: "", text: "Apply"}
+  - {link: "#", text: "Apply"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -88,97 +88,16 @@ rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "Speakers"
 rockstarSpeakersButtonText: "더 보기"
 
-# Location Block
-# locationBlockTitle: "Location"
-# eventLocationName: "Conference Hall"
-# eventLocationLink: "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90/@37.4598862,126.9497166,17z/data=!3m1!4b1!4m5!3m4!1s0x357c9fe8a0a1e2a5:0xa1e2eebc04f0c5e7!8m2!3d37.459882!4d126.9519053"
-# eventStreetAddress: "Gwanak-ro 1 Seoul National University"
-# eventAddressLocality: "관악구"
-# eventAddressLocalityRegion: "Lvivska"
-# eventPostalCode: "08826"
-# eventAddressCountry: "South Korea"
-# eventStartTime: "2019-02-18T09:00"
-# eventDoorTime: "09:00"
-# eventEndTime: "2019-02-22T18:00"
-# eventPlaceCoordinates: "37.4598862, 126.9497166"
-# mapCenterCoordinates: "37.4598862, 126.9497166"
-# mapMobileCenterCoordinates: "37.4598862, 126.9497166"
-
-# Venue Block
-# venueBlockTitle: "Venue"
-# venueBigImage: "venue_0.jpg"
-# venueSmallImage1: "venue_1.jpg"
-# venueSmallImage2: "venue_2.jpg"
-# venueSmallImage3: "venue_3.jpg"
-# venueTitle: "Kinopalace Cinema"
-# venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
-
-# Tweets Feed Block
-# tweetsFeedImage: ""
-# tweetsFeedTitle: ""
-# twitterHashTag: ""
-# twitterFeed: ""
-
-# Partners Block
-# organizersTitle: "Organizers"
-# partnersTitle: "Partners"
-# partnersC4sponsorsButton: "Become a sponsor"
-
-# Subscribe Block
-# subscribeImage: "subscribe.jpg"
-# subscribeTitle: "Subscribe for updates"
-# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
-
-# Tickets Block
-# ticketsTitle: "Pricetable"
-# ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
-# ticketsOffers:
-#  -
-#   name: "Early Bird"
-#   price: "350"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "150"
-#   ribbon: "-5%"
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#   validFrom: "2014-08-25T10:00"
-#   validThrough: "2014-09-30T23:59"
-#  -
-#   name: "Last Chance"
-#   price: "450"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "100"
-#   ribbon: "-20%"
-#   featured: true
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#   validFrom: "2014-10-01T00:00"
-#   validThrough: "2014-10-23T23:59"
-#   disabled: true
-#  -
-#   name: "Student"
-#   price: "200"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "50"
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#   validFrom: "2014-08-20T10:00"
-#   validThrough: "2014-10-23T23:59"
-#   soldOut: true
-#   soldOutText: "Sold Out"
+# Schedule-Summary
+scheduleSummaryTitle: Schedule
+scheduleSummaryButtonText: 더 보기
+scheduleSummaryImage: schedule.png
+scheduleSummaryImageAlt: Schedule
+scheduleSummaryText: 2019년 2월 18일 ~ 22일, 총 5일
 
 # Application
-# applicationTitle: 지원요망
+applicationTitle: Application
 applicationBlocks:
-  - 
-    title: 마감일시
-    image: calendar.svg
-    text: 2018년 12월 15일<br> 오후 5시까지
   -
     title: 모집대상
     image: students.svg
@@ -190,7 +109,11 @@ applicationBlocks:
       R이나 MATLAB을 이용하여 <br>
       프로그래밍이 가능한 학생들을 우선 선발 <br>
       (기초가 부족한 경우 아래 추천 강의를 활용하여 <br>
-      기초 프로그래밍을 숙지해야 참가 가능)
+      기초 프로그래밍을 숙지하여야 참가 가능)
+  - 
+    title: 마감일시
+    image: calendar.svg
+    text: 2018년 12월 15일<br> 오후 5시까지
 applicationUrl: \#
 applicationButtonText: 신청하기
 
@@ -221,52 +144,3 @@ discusShortName: ""
 
 # Speakers List Block
 showSessions: false
-
-# Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
-
-# Logistics Find Way Block
-# findWayTitle: "Find your way here"
-# findWayDistance: "Distance"
-# findWayDriving: "DRIVING"
-# findWayWalking: "WALKING"
-# findWayBicycling: "BICYCLING"
-# findWayTransit: "TRANSIT"
-# findWayFindFlight: "Find Flight"
-# logisticsMapCenterCoordinates: "49.056728, 3.117289"
-# logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
-# logisticsMapAutoDirections: false
-
-# Logistics Direction Details Block
-# directionDetailsImage: "direction-details.jpg"
-# directionDetailsTitle: "Get around Lviv"
-# directionDetailsCards:
-#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
-#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
-#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-# directionDetailsWideCards:
-#  -
-#   title: "Questions?"
-#   subCards:
-#    -
-#     title: "Hotels"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Registration"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Attendance Details"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}

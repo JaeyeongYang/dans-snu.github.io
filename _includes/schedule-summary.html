@@ -1,0 +1,27 @@
+<!-- Begin Schedule Summary Section -->
+<section id="schedule-suammry" class="parallax">
+	<div class="content-wrapper">
+		<div class="col-lg-10 col-lg-offset-1">
+			<h3 id="schedule-summary-title">{{ site.scheduleSummaryTitle }}</h3>
+			{% if site.scheduleSummaryImage %}
+			<div class="row schedule-summary-image-row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<img src="{{ site.baseurl }}/img/schedule-section/{{ site.scheduleSummaryImage }}" alt="{{ site.scheduleSummaryImageAlt }}">
+				</div>
+			</div>
+			{% endif %}
+			{% if site.scheduleSummaryText %}
+			<div class="row schedule-summary-text-row">
+				<p>
+					{{ site.scheduleSummaryText }}
+				</p>
+			</div>
+			{% endif %}
+			<div class="clearfix"></div> 
+			<span class="bordered">
+				<a href="{{ site.baseurl }}/schedule/" class="btn btn-primary waves-effect waves-button waves-light">{{ site.scheduleSummaryButtonText }}</a>
+			</span>
+		</div>
+	</div>
+</section>
+<!-- End Schedule Summary Section -->

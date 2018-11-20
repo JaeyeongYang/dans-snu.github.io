@@ -52,6 +52,7 @@
 			                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
 			                            {% endfor %}
 			                        </div>
+			                        {% endif %}
 									<ul class="social">
 										{% for social in speaker.social %}
 											<li>
@@ -63,7 +64,6 @@
 											</li>
 										{% endfor %}
 									</ul>
-			                        {% endif %}
 									<p class="about">{{ speaker.bio | markdownify }}</p>
 								</div>
 							</div>

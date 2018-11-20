@@ -1,9 +1,11 @@
 <!-- Application Section -->
-<section id="application" class="application">
+<section id="application" class="application image-section">
+	<div class="overlay solid-overlay"></div>
+
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             {% if site.applicationTitle %}
-            <h3>{{ site.applicationTitle }}</h3>
+            <h3 id="application-title">{{ site.applicationTitle }}</h3>
             {% endif %}
             <div class="row application-details">
                 {% assign animationDelay = 0 %}

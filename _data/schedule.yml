@@ -37,3 +37,26 @@
     - {startTime: "12:00", endTime: "13:00", sessionIds: [001]}
     - {startTime: "13:00", endTime: "15:00", sessionIds: [303]}
     - {startTime: "15:00", endTime: "18:00", sessionIds: [300]}
+- 
+  date: "2019-02-21"
+  dateReadable: "Day 4 - February 21"
+  tracks: 
+    - 
+      title: "&nbsp;"
+      color: "#e91e63"
+  timeslots:
+    - {startTime: "09:00", endTime: "12:00", sessionIds: [400]}
+    - {startTime: "12:00", endTime: "13:00", sessionIds: [001]}
+    - {startTime: "13:00", endTime: "18:00", sessionIds: [400]}
+- 
+  date: "2019-02-22"
+  dateReadable: "Day 5 - February 22"
+  tracks: 
+    - 
+      title: "&nbsp;"
+      color: "#e91e63"
+  timeslots:
+    - {startTime: "09:00", endTime: "12:00", sessionIds: [501]}
+    - {startTime: "12:00", endTime: "13:00", sessionIds: [001]}
+    - {startTime: "13:00", endTime: "15:00", sessionIds: [501]}
+    - {startTime: "15:00", endTime: "18:00", sessionIds: [502]}

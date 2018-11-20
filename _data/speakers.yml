@@ -10,6 +10,8 @@
     - abbr: "LEE Lab"
       title: "Laboratory for Behavioral Neurophysiology of Memory"
       url: "http://inahlee.org"
+  social:
+    - {name: "site", link: "http://inahlee.org"}
 - 
   id: 2
   name: "Woncheol"
@@ -30,16 +32,20 @@
   rockstar: true
   ribbon:
     - {abbr: "VNI Lab", title: "Vision & NeuroImaging Laboratory", url: "http://vni.snu.ac.kr/wiki/Visitor"}
+  social:
+    - {name: "site", link: "http://vni.snu.ac.kr/wiki/Visitor"}
 -
   id: 4
   name: "Suk-Ho"
   surname: "Lee"
   company: "Department of Physiology"
-  title: "Associate Professor"
+  title: "Professor"
   thumbnailUrl: SukHoLee.jpg
   rockstar: true
   ribbon:
     - {abbr: "CPL", title: "Cell Physiology Lab", url: "http://cellphysiol.snu.ac.kr"}
+  social:
+    - {name: "site", link: "http://cellphysiol.snu.ac.kr"}
 -
   id: 5
   name: "Woo-Young"
@@ -51,5 +57,4 @@
   ribbon:
     - {abbr: "CCS-Lab", title: "Computational Clinical Science Laboratory", url: "https://ccs-lab.github.io"}
   social:
-    - {name: "twitter", link: "https://twitter.com/wooyoungahn"}
-    - {name: "github", link: "https://github.com/youngahn"}
+    - {name: "site", link: "https://ccs-lab.github.io"}
