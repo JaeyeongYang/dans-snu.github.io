@@ -18,9 +18,11 @@
 			</div>
 			{% endif %}
 			<div class="clearfix"></div> 
+			{% if site.scheduleSummaryButton %}
 			<span class="bordered">
 				<a href="{{ site.baseurl }}/schedule/" class="btn btn-primary waves-effect waves-button waves-light">{{ site.scheduleSummaryButtonText }}</a>
 			</span>
+			{% endif %}
 		</div>
 	</div>
 </section>

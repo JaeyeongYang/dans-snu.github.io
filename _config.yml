@@ -32,7 +32,7 @@ siteVerification: ""
 # Navigation
 navigationLinks:
   - {permalink: "/", text: "Home"}
-  - {permalink: "/schedule/", text: "Schedule"}
+  # - {permalink: "/schedule/", text: "Schedule"}
   # - {permalink: "/speakers/", text: "Speakers"}
   # - {permalink: "/notice/", text: "Notice"}
   # - {permalink: "/apply/", text: "Application"}
@@ -64,7 +64,7 @@ aboutDescription: |
   전기생리학 분야와 기능적 자기 공명 영상(functional magnetic resonance imaging; fMRI) 등의
   신경영상(neuroimaging)을 통해 뇌의 활성패턴을 연구하는 분야에서 다루는 자료를
   효과적으로 분석하기 위해서는 자료의 수집 과정에 대한 이해와 적절한 통계적 분석법에
-  대한 이해가 동시에 필수적으로 이루어져야 한다. 또한, 방대한 데이터가 같는 의미를
+  대한 이해가 동시에 필수적으로 이루어져야 한다. 또한, 방대한 데이터가 갖는 의미를
   체계적으로 이해하고 유용한 정보를 데이터로부터 도출하기 위해서는 계산적 모델링을 통해
   정량적 이론을 구축할 필요가 있다. 본 겨울학교에서는 학생들이 복잡한 신경과학 데이터의
   속성을 이해하고 이에 맞는 통계적 분석법을 적용하여 실제 연구현장에서 활용할 수 있도록
@@ -91,10 +91,11 @@ rockstarSpeakersButtonText: "더 보기"
 
 # Schedule-Summary
 scheduleSummaryTitle: Schedule
+scheduleSummaryButton: false
 scheduleSummaryButtonText: 더 보기
 scheduleSummaryImage: schedule.png
 scheduleSummaryImageAlt: Schedule
-scheduleSummaryText: 2019년 2월 18일 ~ 22일, 총 5일
+scheduleSummaryText: 2019년 2월 18일 ~ 22일 (총 5일)
 
 # Application
 applicationTitle: Application

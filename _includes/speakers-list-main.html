@@ -1,4 +1,4 @@
-<!-- Begin Speakers List 2-->
+<!-- Begin Speakers List Main -->
 <section id="speakers" class="image-section">
 	<div class="overlay solid-overlay"></div>
 
@@ -10,19 +10,9 @@
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
-                        {% if speaker.ribbon != null %}
-                        <ul class="ribbon-wrapper">
-                            {% for ribbon in speaker.ribbon %}
-                            <li class="{{ ribbon['abbr'] | downcase | replace: ' ', '-' }}">
-                                <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
-                                <p class="ribbon full-title">{{ ribbon["title"] }}</p>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
-                                <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
+                                <h2 class="name">{{ speaker.name }}</h2>
                                 <div class="clearfix"></div>
                                 <span class="position">{{ speaker.company }}</span>
                             </div>
@@ -42,4 +32,4 @@
         </div>
     </div>
 </section>
-<!-- End Speakers List 2 -->
+<!-- End Speakers List Main -->

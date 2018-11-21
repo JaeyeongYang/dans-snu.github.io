@@ -1,12 +1,13 @@
 .about-description {
     p {
-        font-size: 1.3em;
-        line-height: 1.5em;
+        font-size: 18px;
+        line-height: 32px;
         text-align: justify;
         text-indent: 1em;
 
         @media (max-width: $screen-xs-max) {
-            font-size: 1.2em;
+            font-size: 16px;
+            line-height: 26px;
         }
     }
 }

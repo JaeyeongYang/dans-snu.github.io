@@ -1,60 +1,50 @@
 - 
   id: 1
-  name: "Inah"
-  surname: "Lee"
-  company: "Department of Brain and Cognitive Sciences"
-  title: "Associate Professor"
-  thumbnailUrl: InahLee.png
-  rockstar: true
+  name: "이인아"
+  company: "자연과학대학 뇌인지과학과"
+  title: "부교수"
+  thumbnailUrl: InahLee.jpg
   ribbon:
     - abbr: "LEE Lab"
       title: "Laboratory for Behavioral Neurophysiology of Memory"
       url: "http://inahlee.org"
   social:
-    - {name: "site", link: "http://inahlee.org"}
+    - {name: "site", label: "Homepage", link: "http://inahlee.org"}
 - 
   id: 2
-  name: "Woncheol"
-  surname: "Jang"
-  company: "Department of Statistics"
-  title: "Associate Professor"
+  name: "장원철"
+  company: "자연과학대학 통계학과"
+  title: "교수"
   thumbnailUrl: WoncheolJang.png
-  rockstar: true
   social:
-    - {name: "site", link: "http://stat.snu.ac.kr/_inc_people_zwc.php"}
+    - {name: "site", label: "Homepage", link: "http://stat.snu.ac.kr/_inc_people_zwc.php"}
 -
   id: 3
-  name: "Sang-Hun"
-  surname: "Lee"
-  company: "Department of Brain and Cognitive Sciences"
-  title: "Associate Professor"
+  name: "이상훈"
+  company: "자연과학대학 뇌인지과학과"
+  title: "교수"
   thumbnailUrl: SangHunLee.png
-  rockstar: true
   ribbon:
     - {abbr: "VNI Lab", title: "Vision & NeuroImaging Laboratory", url: "http://vni.snu.ac.kr/wiki/Visitor"}
   social:
-    - {name: "site", link: "http://vni.snu.ac.kr/wiki/Visitor"}
+    - {name: "site", label: "Homepage", link: "http://vni.snu.ac.kr/wiki/Visitor"}
 -
   id: 4
-  name: "Suk-Ho"
-  surname: "Lee"
-  company: "Department of Physiology"
-  title: "Professor"
+  name: "이석호"
+  company: "의과대학 생리학과"
+  title: "교수"
   thumbnailUrl: SukHoLee.jpg
-  rockstar: true
   ribbon:
     - {abbr: "CPL", title: "Cell Physiology Lab", url: "http://cellphysiol.snu.ac.kr"}
   social:
-    - {name: "site", link: "http://cellphysiol.snu.ac.kr"}
+    - {name: "site", label: "Homepage", link: "http://cellphysiol.snu.ac.kr"}
 -
   id: 5
-  name: "Woo-Young"
-  surname: "Ahn"
-  company: "Department of Psychology"
-  title: "Assistant Professor"
+  name: "안우영"
+  company: "사회과학대학 심리학과"
+  title: "조교수"
   thumbnailUrl: YoungAhn.jpg
-  rockstar: true
   ribbon:
     - {abbr: "CCS-Lab", title: "Computational Clinical Science Laboratory", url: "https://ccs-lab.github.io"}
   social:
-    - {name: "site", link: "https://ccs-lab.github.io"}
+    - {name: "site", label: "Homepage", link: "https://ccs-lab.github.io"}
