@@ -10,11 +10,11 @@ exclude: ['README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "WSTAR-SNU, 2018 Winter"
-author: "WSTAR-SNU"
-email: "wstar-snu@gmail.com"
+title: "DANS-SNU, 2018 Winter"
+author: "DANS-SNU"
+email: "snudans@gmail.com"
 description: "This is descriptions"
-baseurl: "/website-workshop-2018winter"
+baseurl: ""
 url: ""
 permalink: "/notice/:title"
 useFavicons: false
@@ -44,10 +44,9 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: |
-  <strong>WSTAR @ SNU</strong> <br>
+  <strong>DANS</strong> <br>
   <div style="font-size: .7em; margin: 1.5rem 0; line-height: 1.3em;">
-    Workshop for <br class="visible-xs"> Statistical Tools & <br>
-    Analytical Researches <br>
+    Data Analysis <br class="visible-xs">in Neuroscience<br>
     at Seoul National University
   </div>
 eventDate: "2019년 2월 18일 ~ 22일"
@@ -129,15 +128,10 @@ socialLinks:
   # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
   # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
-  # -
-  #   title: "Links"
-  #   links:
-  #     - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-  #     - {link: "https://developers.google.com", text: "Google Developers"}
   -
     title: "Contacts"
     links:
-      - {link: "mailto:wstar-snu@gmail.com", text: "wstar-snu@gmail.com"}
+      - {link: "mailto:snudans@gmail.com", text: "snudans@gmail.com"}
 
 # Blog
 blogTitle: "Latest news"
