@@ -13,7 +13,7 @@ exclude: ['README.md', 'LICENSE.txt', 'CNAME']
 title: "DANS-SNU, 2018 Winter"
 author: "DANS-SNU"
 email: "snudans@gmail.com"
-description: "This is descriptions"
+description: ""
 baseurl: ""
 url: ""
 permalink: "/notice/:title"
@@ -37,9 +37,9 @@ navigationLinks:
   # - {permalink: "/notice/", text: "Notice"}
   # - {permalink: "/apply/", text: "Application"}
 bottomNavigationLinks:
-  - {link: "#", text: "Apply"}
+  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
 rightNavigationButtons:
-  - {link: "#", text: "Apply"}
+  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -115,7 +115,7 @@ applicationBlocks:
     title: 마감일시
     image: calendar.svg
     text: 2018년 12월 15일<br> 오후 5시까지
-applicationUrl: \#
+applicationUrl: https://goo.gl/forms/dCJ8PsCbMrfb0Dt72
 applicationButtonText: 신청하기
 
 # Refcourses
