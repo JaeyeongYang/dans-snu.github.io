@@ -32,14 +32,14 @@ siteVerification: ""
 # Navigation
 navigationLinks:
   - {permalink: "/", text: "Home"}
-  # - {permalink: "/schedule/", text: "Schedule"}
-  # - {permalink: "/speakers/", text: "Speakers"}
-  # - {permalink: "/notice/", text: "Notice"}
-  # - {permalink: "/apply/", text: "Application"}
+#  - {permalink: "/schedule/", text: "Schedule"}
+#  - {permalink: "/speakers/", text: "Speakers"}
+#  - {permalink: "/notice/", text: "Notice"}
+#  - {permalink: "/apply/", text: "Application"}
 bottomNavigationLinks:
-  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
+#  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
 rightNavigationButtons:
-  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
+#  - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
 
 # Hero Block
 heroImage: "hero-new.jpg"
@@ -60,8 +60,8 @@ eventDate: |
   <br class="visible-xs">
   서울대학교 203동 106호
 heroButtons:
-  # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-  # - {permalink: "/apply", text: "Apply"}
+  - {permalink: "#application-title", text: "신청하기"}
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # About Block
 aboutTitle: "Vision"
@@ -103,7 +103,10 @@ scheduleSummaryButton: false
 scheduleSummaryButtonText: 더 보기
 scheduleSummaryImage: schedule.png
 scheduleSummaryImageAlt: Schedule
-scheduleSummaryText: 2019년 2월 18일 ~ 22일 (총 5일), 서울대학교 203동 106호
+scheduleSummaryText: |
+  2019년 2월 18일 ~ 22일 (총 5일),
+  <br class="visible-xs">
+  서울대학교 203동 106호
 
 # Application
 applicationTitle: Application
@@ -137,10 +140,10 @@ refcoursesTitle: 추천 프로그래밍 강의
 
 # Footer
 socialLinks:
-  # - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
-  # - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
-  # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
-  # - {permalink: "/feed.xml", icon: "rss"}
+#  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+#  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+#  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+#  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
   -
     title: "Contacts"
