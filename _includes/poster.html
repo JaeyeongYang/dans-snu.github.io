@@ -1,0 +1,18 @@
+<!-- Poster Section -->
+<section id="poster" class="poster">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            {% if site.posterTitle %}
+            <h3 id="poster-title">{{ site.posterTitle }}</h3>
+            {% endif %}
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <a href="{{ site.baseurl | append: site.posterUrl }}">
+                    <img src="{{ site.baseurl }}/img/poster/{{ site.posterThumbnail }}" class="poster-image">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Poster Section -->

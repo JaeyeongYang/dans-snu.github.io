@@ -42,14 +42,23 @@ rightNavigationButtons:
   - {link: "https://goo.gl/forms/dCJ8PsCbMrfb0Dt72", text: "Apply"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "hero-new.jpg"
 heroTitle: |
-  <strong style="letter-spacing: 6px;">DANS</strong> <br>
-  <div style="font-size: .7em; margin: 1.5rem 0; line-height: 1.3em;">
-    Data Analysis <br class="visible-xs">in Neuroscience<br>
-    at Seoul National University
+  <div class="logo-dans">
+    <strong>DANS</strong>
+    <small>
+      Data Analysis in Neuroscience<br>
+      at Seoul National University
+    </small>
   </div>
-eventDate: "2019년 2월 18일 ~ 22일"
+  <div class="hero-title">
+    SNU 신경통계 <br class="visible-xs"> 겨울학교 워크샵
+  </div>
+eventDate: |
+  2019년 2월 18일 ~ 22일
+  <span class="hidden-xs" style="margin: 0 0.5rem;">|</span>
+  <br class="visible-xs">
+  서울대학교 203동 106호
 heroButtons:
   # - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
   # - {permalink: "/apply", text: "Apply"}
@@ -94,7 +103,7 @@ scheduleSummaryButton: false
 scheduleSummaryButtonText: 더 보기
 scheduleSummaryImage: schedule.png
 scheduleSummaryImageAlt: Schedule
-scheduleSummaryText: 2019년 2월 18일 ~ 22일 (총 5일)
+scheduleSummaryText: 2019년 2월 18일 ~ 22일 (총 5일), 서울대학교 203동 106호
 
 # Application
 applicationTitle: Application
@@ -117,6 +126,11 @@ applicationBlocks:
     text: 2018년 12월 15일<br> 오후 5시까지
 applicationUrl: https://goo.gl/forms/dCJ8PsCbMrfb0Dt72
 applicationButtonText: 신청하기
+
+# Poster
+posterTitle: Poster
+posterThumbnail: "thumbnail.jpg"
+posterUrl: "/assets/poster.pdf"
 
 # Refcourses
 refcoursesTitle: 추천 프로그래밍 강의

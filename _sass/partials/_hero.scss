@@ -13,12 +13,44 @@
             padding: 0;
         }
         h1, p {
-            text-shadow: 0 0 1em #000, 0 0 0.2em #000, 0 0 0.1em #000;
+            text-shadow: 0 0 0.1em #000;
+        }
+        .logo-dans {
+            display: inline-block;
+            padding: .2em .4em;
+            margin-bottom: .2em;
+            text-shadow: 0 0 0.1em #000;
+            border: 3px solid #fff;
+            box-shadow: inset 0 0 0.1em #000, 0 0 0.1em #000;
+            strong {
+                display: block;
+                font-size: 5rem;
+                margin-bottom: .1em;
+                letter-spacing: 6px;
+                font-weight: $extra-bold;
+                line-height: 1em;
+            }
+            small {
+                display: block;
+                color: #fff;
+                font-size: 1rem;
+                font-weight: $regular;
+                line-height: 1.3em;
+            }
+        }
+        .hero-title {
+            font-size: .7em;
+            font-weight: 500;
+            line-height: 1.3em;
+            @media (max-width: 767px) {
+                margin: 1rem 0;
+            }
         }
         p {
+            margin-bottom: 15px;
             font-size: $base-font-size * 2;
             font-weight: $light;
-            margin-bottom: 15px;
+            line-height: 1.5em;
         }
         .btn {
             margin: 0 3px;
