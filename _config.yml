@@ -132,8 +132,8 @@ applicationButtonText: 신청하기
 
 # Poster
 posterTitle: Poster
-posterThumbnail: "thumbnail.jpg"
-posterUrl: "/assets/poster.pdf"
+posterThumbnail: "thumbnail-2.jpg"
+posterUrl: "/assets/poster-2.pdf"
 
 # Refcourses
 refcoursesTitle: 추천 프로그래밍 강의
