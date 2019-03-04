@@ -1,0 +1,20 @@
+<!-- picture Section -->
+{% if site.showPicture %}
+<section id="picture" class="picture">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            {% if site.pictureTitle %}
+            <h3 id="picture-title">{{ site.pictureTitle }}</h3>
+            {% endif %}
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <a href="{{ site.baseurl | append: site.pictureUrl }}" download>
+                    <img src="{{ site.baseurl | append: site.pictureUrl }}" class="picture-image">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- End picture Section -->
